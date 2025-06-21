@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Forms\" />
+    <Compile Remove="Forms\Main.cs" />
+    <Compile Remove="Models\FlightSystem.cs" />
   </ItemGroup>
 
 </Project>
